@@ -144,7 +144,8 @@ a:hover {
     text-decoration: none; }
 
 .color-primary {
-  color: #f15e75; }
+    color: #e7aa35;
+}
 
 /* Colours */
 .text-orange {
@@ -178,17 +179,22 @@ a {
   transform: translateY(-1px); }
 
 .btn-orange {
-  background-color: #FDBA51 !important;
+  background-color: #d2b27f !important;
   color: #fff !important;
   border: none !important; }
 
 .btn-cyan {
-  background-color: #35B8AD !important;
+  background-color: #ba8445 !important;
+  color: #fff !important;
+  border: none !important; }
+
+.btn-cyan.brown {
+  background-color: #8f5e24 !important;
   color: #fff !important;
   border: none !important; }
 
 .btn-red {
-  background-color: #FC665F !important;
+  background-color: #653f0d  !important;
   color: #fff !important;
   border: none !important; }
 
