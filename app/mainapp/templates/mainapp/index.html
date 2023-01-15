@@ -2,11 +2,13 @@
 {% load static %}
 
     {% block 'content' %}
-        <div class="jumbotron d-flex align-items-center" style="background-image: url(static/img/hero-2.jpg)">
+        <div class="jumbotron d-flex align-items-center" style="background-image: url(static/img/background_photo-2.jpeg)">
           <div class="container text-center">
-            <h1 class="display-2 mb-4">Hello, world!</h1>
-            <p>
-              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<br>Duis mollis, est non commodo luctus.
+            <h1 class="display-2 mb-4 shadow-title">Психолог Наталия <br> из Майами</h1>
+            <p class="main">
+              Работаю онлайн со всем миром. Клиентки приходят с самыми различными запросами, <br>
+				 с самыми разными жизненными обстоятельствами.
+
             </p>
           </div>
         </div>
@@ -22,7 +24,7 @@
 
                     <div class="row text-center">
                         <div class="col-md-4 col-sm-6 ">
-                            <img class="rounded-circle" src="{% static 'icons/animat-checkmark.gif' %}" alt="Generic placeholder image" width="140" height="140">
+                            <img class="rounded-circle" src="{% static 'icons/animat-checkmark.gif' %}" alt="img" width="140" height="140">
                             <h5 class="mb-4">Dreams</h5>
                             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                             <p><a class="btn btn-link" href="#" role="button">View details</a></p>
@@ -135,9 +137,10 @@
                                 <h2 class="section-title">
                                     <b>Чем</b> я<br> могу помочь
                                 </h2>
-                                <p class="section-sub-title">
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a <br>pharetra augue. Donec id elit non mi porta gravida at eget metus.
-                                </p>
+<!--                                <p class="section-sub-title">-->
+<!--                                     Консультирую-->
+<!--			<br>девушек/женщин по вопросам:-->
+<!--                                </p>-->
                             </div>
                             <!-- End of Section Title -->
 
@@ -149,12 +152,20 @@
                                         <div class="my-5">
                                             <span class="lnr lnr-camera fs-40 color-primary"></span>
                                         </div>
-                                        <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
-                                        <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
-                                    </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
+                                        <h4 class="mb-4">Консультирую <br>девушек/женщин по вопросам:</h4>
+<!--                                        <p></p>-->
+                                        <ul>
+                                            <li>поиска себя и своего предназначения</li>
+                                            <li>обретения своей жизни мечты</li>
+                                            <li>понимания своих истинных желаний</li>
+                                            <li>умение работать в удовольствие</li>
+                                            <li>поднятия самооценки</li>
+                                            и многое-многое другое.
+                                        </ul>
+                                    </div>
 
                                     <div class="col-md-4 offset-md-right-2 col-sm-6">
-                                        <img class="my-5" src="{% static 'img/natalia-1.jpg' %}" alt="">
+                                        <img class="my-5 help" src="{% static 'img/natalia-1.jpg' %}" alt="">
                                     </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
 
                                 </div><!--/ .featurettes-item -->
@@ -467,27 +478,27 @@
                 <div class="section-content">
                     <div class="title-wrap">
                         <h2 class="section-title">Стоимость за онлайн консультацию</h2>
-                        <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+<!--                        <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>-->
                     </div>
 
-                    <div class="card-deck mb-3 text-center">
+                    <div class="mb-3 text-center one-class">
 
                         <div class="price-box card mb-4 box-shadow">
                             <div class="card-header p-4">
-                                <h6 class="mb-0 text-red font-weight-bold">PERFORMANCE</h6>
-                                <h2 class="display-4 p-2 mb-0 font-weight-bold">500<small class="align-top">GB</small></h2>
-                                <p class="mb-0">For Business</p>
+                                <h6 class="mb-0 text-red font-weight-bold one-consult"><span>1</span> консультация</h6>
+<!--                                <h2 class="display-4 p-2 mb-0 font-weight-bold">500<small class="align-top">GB</small></h2>-->
+<!--                                <p class="mb-0">For Business</p>-->
                             </div>
                             <div class="card-body p-4">
                                 <ul class="price-box-list list-unstyled mt-3 mb-4">
-                                    <li>1 Domain Free</li>
-                                    <li>Unlimited Traffic</li>
-                                    <li>Full Platform Applications</li>
-                                    <li>SSL Certificate</li>
-                                    <li>Premium support</li>
+                                    <li>Если вы хотет понять,</li>
+                                    <li> что такое работа с психологом, </li>
+                                    <li>то покупка 1 консультации </li>
+                                    <li>- это идеальное решение для Вас</li>
+<!--                                    <li>Premium support</li>-->
                                 </ul>
-                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold">$100</h2>
-                                <a href="#" class="btn btn-block btn-secondary btn-red mt-4">Купить</a>
+                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold one-consult">$100</h2>
+                                <a href="#" class="btn btn-block btn-secondary btn-red mt-4">Записаться</a>
                             </div>
                         </div>
                     </div>
@@ -498,83 +509,87 @@
 
         <section id="gtco-pricing" class="bg-grey">
             <div class="container">
-                <div class="section-content">
+                <div class="section-content pt-0">
 
                     <div class="title-wrap">
-                        <h2 class="section-title">Коуч пакеты:</h2>
-                        <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+                        <h2 class="section-title">Коуч-пакеты:</h2>
+                        <p class="section-sub-title">Если Вам интересна длительная работа со специалистом, <br> то специально для Вас есть возможность купить консультации у меня пакетами <br> по более выгодной цене.</p>
                     </div>
 
                     <div class="card-deck mb-3 text-center">
                         <div class="price-box card mb-4 box-shadow">
                             <div class="card-header p-4">
-                                <h6 class="mb-0 text-orange font-weight-bold">BASIC</h6>
-                                <h2 class="display-4 p-2 mb-0 font-weight-bold">3<small class="align-top">консультации</small></h2>
-                                <p class="mb-0">Perfect for the beginning</p>
+                                <h6 class="mb-0 text-orange font-weight-bold three-consult"><span>3</span> консультации</h6>
+<!--                                <h2 class="display-4 p-2 mb-0 font-weight-bold">3<small class="align-top">консультации</small></h2>-->
+<!--                                <p class="mb-0">Perfect for the beginning</p>-->
                             </div>
                             <div class="card-body p-4">
                                 <ul class="price-box-list list-unstyled mt-3 mb-4">
-                                    <li>Unlimited Traffic</li>
-                                    <li>Full Platform Applications</li>
-                                    <li>Email support</li>
+                                    <li>Идеяльно для начала</li>
+<!--                                    <li>Full Platform Applications</li>-->
+<!--                                    <li>Email support</li>-->
                                 </ul>
-                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold">$285</h2>
-                                <a href="#" class="btn btn-block btn-secondary btn-orange mt-4">Купить</a>
+                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold three-consult">$285</h2>
+<!--                                <a href="#" class="btn btn-block btn-secondary btn-orange mt-4">Купить</a>-->
                             </div>
                         </div>
                         <div class="price-box card mb-4 box-shadow">
                             <div class="card-header p-4">
-                                <h6 class="mb-0 text-cyan font-weight-bold">PRO</h6>
-                                <h2 class="display-4 p-2 mb-0 font-weight-bold">5<small class="align-top">консультаций</small></h2>
-                                <p class="mb-0">For Professionals</p>
+                                <h6 class="mb-0 text-cyan font-weight-bold five-consult"><span>5</span> консультаций</h6>
+<!--                                <h2 class="display-4 p-2 mb-0 font-weight-bold">5<small class="align-top">консультаций</small></h2>-->
+<!--                                <p class="mb-0">For Professionals</p>-->
                             </div>
                             <div class="card-body p-4">
                                 <ul class="price-box-list list-unstyled mt-3 mb-4">
-                                    <li>1 Domain Free</li>
-                                    <li>Unlimited Traffic</li>
-                                    <li>Full Platform Applications</li>
-                                    <li>Premium support</li>
+                                    <li>Более детальная проработка</li>
+<!--                                    <li>Unlimited Traffic</li>-->
+<!--                                    <li>Full Platform Applications</li>-->
+<!--                                    <li>Premium support</li>-->
                                 </ul>
-                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold">$450</h2>
-                                <a href="#" class="btn btn-block btn-secondary btn-cyan mt-4">Купить</a>
+                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold five-consult">$450</h2>
+<!--                                <a href="#" class="btn btn-block btn-secondary btn-cyan mt-4">Купить</a>-->
                             </div>
                         </div>
                         <div class="price-box card mb-4 box-shadow">
                             <div class="card-header p-4">
-                                <h6 class="mb-0 text-cyan font-weight-bold">PRO</h6>
-                                <h2 class="display-4 p-2 mb-0 font-weight-bold">7<small class="align-top">консультаций</small></h2>
-                                <p class="mb-0">For Professionals</p>
+                                <h6 class="mb-0 text-cyan font-weight-bold seven-consult"><span>7</span> консультаций</h6>
+<!--                                <h2 class="display-4 p-2 mb-0 font-weight-bold">7<small class="align-top">консультаций</small></h2>-->
+<!--                                <p class="mb-0">For Professionals</p>-->
                             </div>
                             <div class="card-body p-4">
                                 <ul class="price-box-list list-unstyled mt-3 mb-4">
-                                    <li>1 Domain Free</li>
-                                    <li>Unlimited Traffic</li>
-                                    <li>Full Platform Applications</li>
-                                    <li>Premium support</li>
+                                    <li>Решение вопросов, касающихся сложных жизненных ситуаций</li>
+<!--                                    <li>Unlimited Traffic</li>-->
+<!--                                    <li>Full Platform Applications</li>-->
+<!--                                    <li>Premium support</li>-->
                                 </ul>
-                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold">$595</h2>
-                                <a href="#" class="btn btn-block btn-secondary btn-cyan brown mt-4">Купить</a>
+                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold seven-consult">$595</h2>
+<!--                                <a href="#" class="btn btn-block btn-secondary btn-cyan brown mt-4">Купить</a>-->
                             </div>
                         </div>
                         <div class="price-box card mb-4 box-shadow">
                             <div class="card-header p-4">
-                                <h6 class="mb-0 text-red font-weight-bold">PERFORMANCE</h6>
-                                <h2 class="display-4 p-2 mb-0 font-weight-bold">10<small class="align-top">консультаций</small></h2>
-                                <p class="mb-0">For Business</p>
+                                <h6 class="mb-0 text-red font-weight-bold ten-consult"><span>10</span> консультаций</h6>
+<!--                                <h2 class="display-4 p-2 mb-0 font-weight-bold">10<small class="align-top">консультаций</small></h2>-->
+<!--                                <p class="mb-0">For Business</p>-->
                             </div>
                             <div class="card-body p-4">
                                 <ul class="price-box-list list-unstyled mt-3 mb-4">
-                                    <li>1 Domain Free</li>
-                                    <li>Unlimited Traffic</li>
-                                    <li>Full Platform Applications</li>
-                                    <li>SSL Certificate</li>
-                                    <li>Premium support</li>
+                                    <li>Когда необходима длительная психологическая поддержка</li>
+<!--                                    <li>Unlimited Traffic</li>-->
+<!--                                    <li>Full Platform Applications</li>-->
+<!--                                    <li>SSL Certificate</li>-->
+<!--                                    <li>Premium support</li>-->
                                 </ul>
-                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold">$810</h2>
-                                <a href="#" class="btn btn-block btn-secondary btn-red mt-4">Купить</a>
+                                <h2 class="card-title pricing-card-title mb-0 font-weight-bold ten-consult">$810</h2>
+<!--                                <a href="#" class="btn btn-block btn-secondary btn-red mt-4">Купить</a>-->
                             </div>
                         </div>
+
+
                     </div>
+                    <a href="#" class="btn btn-block btn-secondary btn-red mt-4" style="max-width: 40%;
+    margin-left: 30%;">Оставить заявку</a>
                 </div>
             </div>
 
