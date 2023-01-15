@@ -12,9 +12,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
   font-weight: 300;
-  font-size: 1.6rem; }
+  font-size: 1.8rem; }
   body:after {
     position: absolute;
     content: "";
@@ -27,7 +27,7 @@ body {
     z-index: -1;
     background: #f12711;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f1cb7a, #6b4a0c);}
+    background: linear-gradient(to right, #e9d5a8, #a1753a);}
 
 .boxed-page {
   margin: 0 auto;
@@ -63,6 +63,24 @@ h5 {
 h6 {
   font-size: 1.6rem; }
 
+.one-consult {
+  color: #ba8445 !important; }
+
+.three-consult {
+  color: #d2b27f !important; }
+
+.five-consult {
+  color: #ba8445 !important; }
+
+.seven-consult {
+  color: #8f5e24 !important; }
+
+.ten-consult {
+  color: #653f0d !important; }
+
+h6 span {
+  font-size: 24px; }
+
 h1,
 h2,
 h3 {
@@ -87,13 +105,16 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
   margin-top: 0; }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.5em; }
+p.main{
+        text-shadow: -1px -1px 3px #f0ebe3, 1px -1px 3px #f0ebe3, -1px 1px 3px #f0ebe3, 1px 1px 3px #f0ebe3;
+}
 
 .section-title,
 .section-sub-title {
@@ -144,7 +165,8 @@ a:hover {
     text-decoration: none; }
 
 .color-primary {
-  color: #f15e75; }
+    color: #b58220;
+}
 
 /* Colours */
 .text-orange {
@@ -178,17 +200,22 @@ a {
   transform: translateY(-1px); }
 
 .btn-orange {
-  background-color: #FDBA51 !important;
+  background-color: #d2b27f !important;
   color: #fff !important;
   border: none !important; }
 
 .btn-cyan {
-  background-color: #35B8AD !important;
+  background-color: #ba8445 !important;
+  color: #fff !important;
+  border: none !important; }
+
+.btn-cyan.brown {
+  background-color: #8f5e24 !important;
   color: #fff !important;
   border: none !important; }
 
 .btn-red {
-  background-color: #FC665F !important;
+  background-color: #653f0d  !important;
   color: #fff !important;
   border: none !important; }
 
@@ -246,7 +273,7 @@ a {
   min-height: 500px; }
   @media (min-width: 1024px) {
     .jumbotron {
-      min-height: 80vh; } }
+      min-height: 91vh; } }
   .jumbotron .container {
     position: relative; }
   .jumbotron:before {
@@ -314,7 +341,8 @@ a {
 
 .lightcase-icon-close:before {
   content: '\e870';
-  font-family: "Linearicons-Free"; }
+  font-family: 'Viaoda Libre', cursive;
+  }
 
 .grid-title {
   text-align: center; }
@@ -489,3 +517,20 @@ footer {
     width: 100%; }
   .card-deck {
     flex-direction: column; } }
+
+.shadow-title{
+      text-shadow: 6px 6px 6px rgb(0 0 0 / 30%);
+}
+
+.help{
+    object-fit: cover;
+    height: 95%;
+}
+
+.one-class{
+    max-width: 50%;
+    margin-left: 25%;
+}
+.pt-0{
+    padding-top: 0;
+}
