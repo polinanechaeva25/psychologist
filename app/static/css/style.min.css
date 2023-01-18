@@ -7,12 +7,12 @@ html {
   overflow-x: hidden; }
 
 body {
-  background-image: url(./../img/bg.jpg);
+  background-image: url(./../img/back.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Comfortaa', cursive;
   font-weight: 300;
   font-size: 1.8rem; }
   body:after {
@@ -27,7 +27,7 @@ body {
     z-index: -1;
     background: #f12711;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #e9d5a8, #a1753a);}
+    background: linear-gradient(to right, #ebe5da, #463d31);}
 
 .boxed-page {
   margin: 0 auto;
@@ -105,16 +105,19 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Comfortaa', cursive;
   margin-top: 0; }
 
 p {
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.5em; }
+
 p.main{
-        text-shadow: -1px -1px 3px #f0ebe3, 1px -1px 3px #f0ebe3, -1px 1px 3px #f0ebe3, 1px 1px 3px #f0ebe3;
+    width: 60%;
+    margin-left: 20%;
 }
+
 
 .section-title,
 .section-sub-title {
@@ -341,7 +344,7 @@ a {
 
 .lightcase-icon-close:before {
   content: '\e870';
-  font-family: 'Viaoda Libre', cursive;
+  font-family: 'Comfortaa', cursive;
   }
 
 .grid-title {
@@ -518,19 +521,15 @@ footer {
   .card-deck {
     flex-direction: column; } }
 
-.shadow-title{
-      text-shadow: 6px 6px 6px rgb(0 0 0 / 30%);
-}
-
-.help{
-    object-fit: cover;
-    height: 95%;
-}
 
 .one-class{
     max-width: 50%;
     margin-left: 25%;
 }
 .pt-0{
+    padding-top: 0;
+}
+
+.how-help{
     padding-top: 0;
 }
